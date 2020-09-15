@@ -1,0 +1,17 @@
+[user]
+	name = ""
+	email = ""
+[core]
+	editor = code --wait
+	preloadindex = true
+	fscache = true
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[gc]
+	auto = 256

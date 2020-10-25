@@ -1,10 +1,7 @@
-[user]
-	name = ""
-	email = ""
+[include]
+	path = ~/.gitcredentials
 [core]
 	editor = code --wait
-	preloadindex = true
-	fscache = true
 [merge]
 	tool = vscode
 [mergetool "vscode"]
@@ -13,5 +10,5 @@
 	tool = vscode
 [difftool "vscode"]
 	cmd = code --wait --diff $LOCAL $REMOTE
-[gc]
-	auto = 256
+[init]
+	defaultBranch = main

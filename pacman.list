@@ -3,9 +3,9 @@ atool
 autoconf
 automake
 base
-bashtop
 binutils
 bison
+bpytop
 crda
 docker
 docker-compose
@@ -73,6 +73,7 @@ mediainfo
 mesa
 mesa-demos
 micro-bin
+mpv
 mtools
 neofetch
 neovim
@@ -105,6 +106,7 @@ pulseaudio
 pulseaudio-alsa
 python
 python-pip
+qbittorrent
 ranger
 remmina
 rofi
@@ -128,7 +130,6 @@ ttf-jetbrains-mono
 unrar
 unzip
 visual-studio-code-bin
-vlc
 vmware-horizon-client
 vulkan-intel
 w3m

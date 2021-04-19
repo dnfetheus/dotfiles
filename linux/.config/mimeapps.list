@@ -1,8 +1,0 @@
-[Default Applications]
-x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
-x-scheme-handler/msteams=teams.desktop
-x-scheme-handler/tg=userapp-Telegram Desktop-24XCY0.desktop
-x-scheme-handler/etcher=balena-etcher-electron.desktop
-
-[Added Associations]
-x-scheme-handler/tg=userapp-Telegram Desktop-24XCY0.desktop;

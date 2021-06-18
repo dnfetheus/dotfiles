@@ -1,5 +1,11 @@
 export ZSH="$HOME/.oh-my-zsh"
 
+export FILE_MANAGER="ranger"
+export GUI_EDITOR="codium"
+
+export DRIVE_DIR="/mnt/SSD/Drive/fmarcucci@id.uff.br"
+export NOTES_DIR="$DRIVE_DIR/library/notes"
+
 ZSH_THEME="agnoster"
 
 plugins=(
@@ -46,9 +52,13 @@ alias wni="wttr niteroi"
 alias pw="poweroff"
 alias rb="reboot"
 
-alias drop_cache="echo 3 | sudo tee /proc/sys/vm/drop_caches"
+alias dropcache="echo 3 | sudo tee /proc/sys/vm/drop_caches"
+alias pactrash="sudo pacman -Rsn $(pacman -Qtdq)"
 
 alias pls="sudo"
+
+alias notes="$FILE_MANAGER $NOTES_DIR"
+alias editnotes="$GUI_EDITOR $NOTES_DIR"
 
 source ~/.shrc
 
